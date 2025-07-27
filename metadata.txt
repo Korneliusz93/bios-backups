@@ -1,0 +1,7 @@
+Model: MacBookAir7,2
+Board: Mac-937CB26E2E02BB01
+Serial: CPFSM2HPH3QD
+BIOS Version: 489.0.0.0.0
+BIOS Date: 10/07/2023
+Backup date: 2025-07-27 13:43:39 UTC
+ab69881cfaeb4555643f52f8114deb9c3c3d116769a2f4fdb5805bb6607a34eb  backup.bin
