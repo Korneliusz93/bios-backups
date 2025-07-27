@@ -22,4 +22,13 @@ https://flashrom.org
 
 Now You should store metadata somewhere as a backup. It will be very important to store it with a checksum.
 
-After that You should be ready to start experimenting with modification and experimenting with bios and flashing an image.
+After that You should be ready to start with modification and experimenting with bios and flashing an image.
+
+To start You first should have a possibility to analyse binary file You have just obtained.
+To do this You should first install binwalk. How to do this won't be covered in tutorial because the installation process will be different for different systems.
+I did it in YaST software management tool - the easiest possible way to do this.
+
+
+
+resources:
+https://www.hardbreak.wiki/hardware-hacking/basics/tools/software-tools/flashrom
