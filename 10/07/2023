@@ -1,2 +1,20 @@
+BIOS Date 2023:
 
-sadasasdasd
+First install flashrom tool by looking it up in YaST.
+
+Then use flashrom with internal programmer (not ideal) to do a full backup of bios/uefi.
+
+admin@openSuse:~/rom_backup> sudo flashrom -p internal -r backup.bin
+flashrom v1.2 on Linux 6.4.0-150600.23.53-default (x86_64)
+flashrom is free software, get the source code at https://flashrom.org
+
+Using clock_gettime for delay loops (clk_id: 1, resolution: 1ns).
+Opened /dev/mtd0 successfully
+Found Programmer flash chip "Opaque flash chip" (8192 kB, Programmer-specific) mapped at physical address 0x0000000000000000.
+Reading flash... done.
+admin@openSuse:~/rom_backup> ls
+backup  backup.bin
+
+Now You should store metadata somewhere as a backup. It will be very important to store it with a checksum.
+
+After that You should be ready to start experimenting with modification and experimenting with bios and flashing an image.
